@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{ 
+    background: linear-gradient(rgba(0, 88, 104, 0.74),rgba(0, 0, 0, 0.781)) ;
+}
+.wubia{
+    color: white;
+    font-family: 'Lemon', serif;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.graph1{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: 'Almarai', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color:white;
+    margin-right: 30%;
+}
+.iakm{
+    height: 150x; 
+    width: 300px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 1020px;
+    border: solid rgba(0, 0, 0, 0.269) 1mm;
+}
+.gun{
+    color: white;
+    font-family: 'Lemon', serif;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 17px;
+}
+.iak47{
+    height: 150x; 
+    width: 300px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 1020px;
+    border: solid rgba(0, 0, 0, 0.269) 1mm;
+}
+.impikms{
+    height: 150x; 
+    width: 300px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 1020px;
+    border: solid rgba(0, 0, 0, 0.269) 1mm;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: 2vw;
+    margin-left: 47%;
+}
+
+
+
+
+@media (max-width:800px){
+ 
+    .graph1{
+        margin-left: 3%;
+        margin-right: 0%;
+    }
+    .gun{
+        margin-left: 3%;
+        margin-top: 2%;
+    
+    }
+    .wubia{
+        margin-left: 3%;
+    }
+
+    .iakm{
+        position: static;
+        margin-left: 3%;
+    }
+    .iak47{
+        position: static;
+        margin-left: 3%;
+    }
+    .impikms{
+        position: static;
+        margin-left: 3%;
+    }
+    
+    
+}
+

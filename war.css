@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+}
+body{ 
+    background: linear-gradient(rgba(0, 88, 104, 0.74),rgba(0, 0, 0, 0.781)) ;
+}
+.iadw12{
+    margin-top: 20px;
+    margin-left: 30px;
+    position: relative;
+    font-family: 'Lemon', serif;
+    color: white;
+}
+.graph1{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: 'Almarai', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color:white;
+    margin-right: 30%;
+}
+.pic1{
+    height: 150px; 
+    width: 300px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 1020px;
+    border: solid rgba(0, 0, 0, 0.269) 1mm;
+}
+.pic2{
+    height: 150px; 
+    width: 300px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 1020px;
+    border: solid rgba(0, 0, 0, 0.269) 1mm;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: 2vw;
+    margin-left: 47%;
+}
+
+
+
+
+@media (max-width:800px){
+    .iadw12{
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+    .graph1{
+        margin-left: 3%;
+        margin-right: 0%;
+    }
+    .pic1{
+        position: static;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .pic2{
+        position: static;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+
+}

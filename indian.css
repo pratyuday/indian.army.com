@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{ 
+    background: linear-gradient(rgba(0, 88, 104, 0.74),rgba(0, 0, 0, 0.781)) ;
+}
+.india{
+    margin-left: 30px;
+    position: relative;
+    font-family: 'Lemon', serif;
+    color: white;
+}
+.graph1{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: 'Almarai', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color:white;
+}
+p{
+    margin-right: 350px;
+    line-height: 25px;
+}
+.whole{
+    margin-top: 20px;
+}
+.pic1{
+    height: 150px; 
+    width: 300px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 1020px;
+    border: solid rgba(0, 0, 0, 0.269) 1mm;
+}
+.pic2{
+    height: 150px; 
+    width: 300px;
+    position: absolute;
+    margin-top: 70;
+    margin-left: 1020px;
+    border: solid rgba(0, 0, 0, 0.269) 1mm;
+}
+hr{
+    margin: 3px;
+}
+.whiteline{
+    height: 150px; 
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 2vw;
+    border: solid rgba(0, 0, 0, 0.269) 1mm;
+}
+.whiteline2{
+    position: absolute;
+    height: 150px; 
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 14vw;
+    border: solid rgba(0, 0, 0, 0.269) 1mm;
+}
+.whiteline3{
+    position: absolute;
+    height: 150px; 
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 50vw;
+    border: solid rgba(0, 0, 0, 0.269) 1mm;
+    
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: 2vw;
+    margin-left: 47%;
+}
+
+
+
+
+
+
+@media (max-width:800px) {
+       
+    .india{
+        margin-left: 3%;
+    }
+    p{
+        margin-right: 0%;
+    }
+    .graph1{
+        margin-top: 2%;
+        font-weight: normal;
+        margin-left: 3%;
+    }
+    .pic1{
+        position: static;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .pic2{
+        position: static;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .whiteline{
+        position: static;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .whiteline2{
+        position: static;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .whiteline3{
+        position: static;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+}
